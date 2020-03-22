@@ -10,7 +10,7 @@
 
 ##### RabbitMQ
 
-Login: admin  
+Login: admin
 Pass: admin
 
 ###### Setup
@@ -18,6 +18,8 @@ Pass: admin
 docker-compose pull
 docker-compose up -d
 composer install
+yarn install
+yarn encore dev
 ```
 
 
