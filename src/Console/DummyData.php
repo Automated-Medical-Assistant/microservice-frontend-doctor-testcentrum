@@ -57,7 +57,7 @@ class DummyData extends Command
     private function getUsers(): UserListAPIDataProvider
     {
         $users = json_decode(
-            '{"Users":[{"userId":1,"email":"test1@doctor.com","role":"doctor","stateIso":"NW"},{"userId":2,"email":"test2@doctor.com","role":"doctor","stateIso":"BY"},{"userId":3,"email":"test1@testcenter.com","role":"testCenter","stateIso":"NW"},{"userId":4,"role":"testCenter","stateIso":"BY"},{"userId":5,"email":"test1@labor.com","role":"labor","stateIso":"NW"},{"userId":6,"email":"test2@labor.com","role":"labor","stateIso":"BY"}]}',
+            '{"Users":[{"userId":1,"email":"test1@doctor.com","role":"doctor","stateIso":"NW"},{"userId":2,"email":"test2@doctor.com","role":"doctor","stateIso":"BY"},{"userId":3,"email":"test1@testcenter.com","role":"testCenter","stateIso":"NW"},{"userId":4,"email":"test2@testcenter.com","role":"testCenter","stateIso":"BY"},{"userId":5,"email":"test1@labor.com","role":"labor","stateIso":"NW"},{"userId":6,"email":"test2@labor.com","role":"labor","stateIso":"BY"}]}',
             true
         );
         $userListAPIDataProvider = new UserListAPIDataProvider();
