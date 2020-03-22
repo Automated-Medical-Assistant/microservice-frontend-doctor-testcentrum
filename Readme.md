@@ -36,3 +36,6 @@ sudo pecl install amqp [autodetect]
 sudo touch /etc/php/7.4/cli/conf.d/20-amqp.ini
 sudo echo "extension=amqp.so" >> /etc/php/7.4/cli/conf.d/20-amqp.ini
 ```
+
+##### dummy-data
+
