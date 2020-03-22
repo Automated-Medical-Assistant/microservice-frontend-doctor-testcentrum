@@ -1,0 +1,9 @@
+framework:
+    messenger:
+        transports:
+            NumberCreationRequestAPI.NumberService: "%env(NumberCreationRequestAPI_NumberService)%"
+
+        routing:
+            'MessageInfo\NumberCreationRequestAPIDataProvider' : NumberCreationRequestAPI.NumberService
+
+
