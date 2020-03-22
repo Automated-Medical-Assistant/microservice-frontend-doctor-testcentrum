@@ -70,4 +70,12 @@ class App extends AbstractController
             'number' => $number
         ]);
     }
+
+    /**
+     * @Route("/logout", name="app_logout")
+     */
+    public function logout(): void
+    {
+
+    }
 }

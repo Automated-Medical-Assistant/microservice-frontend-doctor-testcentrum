@@ -39,3 +39,12 @@ sudo echo "extension=amqp.so" >> /etc/php/7.4/cli/conf.d/20-amqp.ini
 
 ##### dummy-data
 
+password for all user test123
+
+| role | email |
+| doctor | test1@doctor.com |
+| doctor | test2@doctor.com |
+| testCenter | test1@testcenter.com |
+| testCenter | test2@testcenter.com |
+| labor | test1@labor.com |
+| labor | test2@labor.com |
